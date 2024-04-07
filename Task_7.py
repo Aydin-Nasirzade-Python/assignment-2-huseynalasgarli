@@ -3,7 +3,7 @@
 def main():
   x=float(input("Enter x: "))
   y=float(input("Enter y: "))
-  if (x<abs(y) and y<((x-2)**2)-3 and y<0) or (x>abs(y) and y<((x-2)**2)-3 and y>0):
+  if (x<abs(y) and y>=((x-2)**2)-3 and y<0) or (abs(x)>y and y>=((x-2)**2)-3) and y>0):
     print("The point is in the shaded area")
   else:
     print("The point is not in the shaded area")
