@@ -3,7 +3,7 @@
 def main():
   year=int(input("Enter the year [ex. 2021]: "))
   if year<=0:
-    print("Invalid year")
+    print("Invalid year!")
   elif year%12==0:
     print(f"{year} is the year of the Monkey")
   elif year%12==1:
