@@ -8,7 +8,7 @@ def main():
   elif month=="June" and day>=21 or month=="July" or month=="August" or month=="September" and day<=21:
     print(f"{month} {day} is in Summer")
   elif month=="September" and day>=22 or month=="October" or month=="November" or month=="December" and day<=20:
-    print(f"{month} {day} is in Autumn")
+    print(f"{month} {day} is in Fall")
   else:
     print(f"{month} {day} is in Winter")
   
