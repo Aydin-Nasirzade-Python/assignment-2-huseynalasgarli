@@ -25,7 +25,7 @@ def main():
     elif month=="September" and day>=23 or month=="October" and day<=22:
       print("Your zodiac sign is Libra")
     elif month=="October" and day>=23 or month=="November" and day<=21:
-      print("Your zodiac sign is Scorpio")
+      print("Your zodiac sign is Scorpion")
     elif month=="November" and day>=22 or month=="December" and day<=21:
       print("Your zodiac sign is Sagittarius")
   else:
