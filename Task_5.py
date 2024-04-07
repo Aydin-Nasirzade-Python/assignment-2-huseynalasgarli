@@ -2,7 +2,7 @@
 
 def main():
   month=input("Enter a month [ex. March]: ")
-  day=int(input("Enter the day [ex. 12]: ")
+  day=int(input("Enter the day [ex. 12]: "))
   if day<=31:
     if month=="December" and day>=22 or month=="January" and day<=19:
       print("Your zodiac sign is Capricorn")
