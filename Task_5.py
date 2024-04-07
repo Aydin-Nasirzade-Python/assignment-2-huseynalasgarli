@@ -7,7 +7,7 @@ def main():
     print("Your zodiac sign is Capricorn")
   elif month=="January" and day>=20 and day<=31 or month=="February" and day<=18 and day>=1:
     print("Your zodiac sign is Aquarius")
-  elif month=="February" and day>=19 and day<=28 or month=="March" and day<=20 and day>=1:
+  elif month=="February" and day>=19 and day<=29 or month=="March" and day<=20 and day>=1:
     print("Your zodiac sign is Pisces")
   elif month=="March" and day>=21 and day<=31 or month=="April" and day<=19 and day>=1:
     print("Your zodiac sign is Aries")
